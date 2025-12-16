@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
-  const API_URL = "https://https://backend-rodrigo-genai.onrender.com/chat"; 
+  const API_URL = "https://backend-rodrigo-genai.onrender.com/chat"; 
   //const API_URL = "http://localhost:8000/chat"; 
 
   const scrollToBottom = () => {
