@@ -77,6 +77,7 @@ function App() {
         {/* CHAT CONTAINER */}
         <div className="w-full max-w-2xl bg-[#1e293b]/80 backdrop-blur-sm border border-white/10 rounded-2xl shadow-2xl overflow-hidden flex flex-col h-[500px]">
           
+          <div className="flex-1 overflow-y-auto p-6 space-y-6 chat-scrollbar">
             {messages.map((msg, i) => (
               <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} animate-message`}>
                 <div className={`max-w-[85%] p-4 rounded-2xl text-sm leading-relaxed break-words shadow-md transition-all hover:shadow-lg ${
