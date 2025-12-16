@@ -10,9 +10,8 @@ function App() {
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
-  // SEU LINK DO RENDER
-  //const API_URL = "https://ifood-backend-rodrigo.onrender.com/chat"; 
-  const API_URL = "http://localhost:8000/chat"; 
+  const API_URL = "https://https://backend-rodrigo-genai.onrender.com/chat"; 
+  //const API_URL = "http://localhost:8000/chat"; 
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });

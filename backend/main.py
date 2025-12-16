@@ -19,9 +19,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-SEU_NOME = "Rodrigo Cotrin"
-SEU_WHATSAPP = "5511988263659" 
-LINK_WHATSAPP = f"https://wa.me/{SEU_WHATSAPP}?text=Ola%20Rodrigo,%20vim%20pelo%20seu%20Assistente."
+NOME = "Rodrigo Cotrin"
+WHATSAPP = "5511988263659" 
+LINK_WHATSAPP = f"https://wa.me/{WHATSAPP}?text=Ola%20Rodrigo,%20vim%20pelo%20seu%20Assistente."
 
 api_key = os.getenv("OPENAI_API_KEY")
 model = ChatOpenAI(model="gpt-4o-mini", temperature=0.2, openai_api_key=api_key)
